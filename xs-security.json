@@ -1,0 +1,10 @@
+{
+  "xsappname" : "SNAH_Common_AuditLogging",
+  "scopes": [],
+  "attributes": [],
+  "role-templates": [],
+  "tenant-mode": "dedicated",
+    "oauth2-configuration": {
+        "redirect-uris": ["https://*.cfapps.us20.hana.ondemand.com/**"]
+      }
+}
