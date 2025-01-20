@@ -1,10 +1,10 @@
 {
-  "manifest.json": 1725034917151,
-  "i18n/i18n.properties": 1721726392037,
   "Component.js": 1721726392037,
+  "i18n/i18n.properties": 1721726392037,
+  "manifest.json": 1725040525615,
   "Component-dbg.js": 1721726392037,
-  "Component.js.map": 1725034917250,
-  "Component-preload.js": 1725034917332,
-  "Component-preload.js.map": 1725034917332,
+  "Component.js.map": 1725040525815,
+  "Component-preload.js": 1725040526016,
+  "Component-preload.js.map": 1725040526016,
   "index.html": 1721726392037
 }

@@ -7,7 +7,7 @@ modules:
   type: nodejs
   path: gen/srv
   requires:
-  - name: SNAH_Common_AuditLogging-auth
+  - name: SNAH_B2B_Common_oAuth
   - name: SNAH_Common_AuditLogging-db
   provides:
   - name: srv-api
@@ -36,7 +36,7 @@ modules:
       forwardAuthToken: true
       name: srv-api 
       url: ~{srv-url}
-  - name: SNAH_Common_AuditLogging-auth
+  - name: SNAH_B2B_Common_oAuth
   - name: SNAH_Common_AuditLogging-destination-service
     group: destinations
     properties:
@@ -72,7 +72,7 @@ modules:
     - npm run build:cf
     supported-platforms: []
 resources:
-- name: SNAH_Common_AuditLogging-auth
+- name: SNAH_B2B_Common_oAuth
   type: org.cloudfoundry.managed-service
   parameters:
     config:
